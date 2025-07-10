@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Common Resume Mistakes and How to Avoid Them</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <h1>Common Resume Mistakes and How to Avoid Them</h1>
+  <p>Even strong candidates lose opportunities due to simple resume mistakes. Here’s how to avoid them:</p>
+  <p><strong>1. Typos and Grammar Issues:</strong> Use a spell checker and proofreading tool like Grammarly. A single typo can ruin your first impression.</p>
+  <p><strong>2. Too Much Text:</strong> Avoid long paragraphs. Use bullet points for achievements. Be concise and relevant.</p>
+  <p><strong>3. Missing Dates or Job Titles:</strong> Be consistent. Every job should have a clear title, employer, location, and dates.</p>
+  <p><strong>4. No Metrics:</strong> Numbers grab attention. Instead of “Handled customer complaints”, say “Resolved 50+ customer issues weekly with 95% satisfaction”.</p>
+  <p><strong>5. Unprofessional Email:</strong> Use a professional email, like firstname.lastname@gmail.com — not dragonlord123@...</p>
+  <p>Fixing these small things can make a big difference in how recruiters perceive your professionalism and attention to detail.</p>
+</body>
+</html>
