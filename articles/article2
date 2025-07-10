@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top 5 ATS Tips to Beat Resume Bots</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <h1>Top 5 ATS Tips to Beat Resume Bots</h1>
+  <p>Over 90% of Fortune 500 companies use an Applicant Tracking System (ATS). This software scans resumes before a human ever sees them.</p>
+  <p><strong>1. Use Standard Fonts and Headings:</strong> Stick to fonts like Arial, Calibri, or Times New Roman. Use headings like "Work Experience", "Education", and "Skills".</p>
+  <p><strong>2. Match Keywords From the Job Posting:</strong> Read the job ad carefully. If it mentions “project management”, use that exact phrase in your resume.</p>
+  <p><strong>3. Don’t Use Graphics or Tables:</strong> ATS systems may not read them correctly. Keep your layout simple and text-based.</p>
+  <p><strong>4. Save in the Right Format:</strong> Use .docx or PDF (if allowed). Avoid .odt or image-based files.</p>
+  <p><strong>5. Keep it Organized:</strong> Use bullet points, consistent dates, and a clear hierarchy of information.</p>
+  <p>Bonus Tip: Test your resume by copying and pasting it into a plain text editor. If it looks messy or unreadable, so will it to the ATS.</p>
+</body>
+</html>
