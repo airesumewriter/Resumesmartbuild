@@ -1,1 +1,58 @@
-<?xml version='1.0'?><urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'><url><loc>https://resumesmartbuild.com/</loc></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://resumesmartbuild.com/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- ATS Resume Scanner Tool -->
+  <url>
+    <loc>https://resumesmartbuild.com/ats.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Resume Checklist -->
+  <url>
+    <loc>https://resumesmartbuild.com/resume-checklist.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- AI Resume Rebuilder -->
+  <url>
+    <loc>https://resumesmartbuild.com/resume-rebuilder.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Job Description Matcher -->
+  <url>
+    <loc>https://resumesmartbuild.com/job-matcher.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Free Resume Templates -->
+  <url>
+    <loc>https://resumesmartbuild.com/templates.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog Article Pages -->
+  <url>
+    <loc>https://resumesmartbuild.com/articles/how-to-make-an-ats-friendly-resume.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://resumesmartbuild.com/articles/resume-vs-cv-differences.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://resumesmartbuild.com/articles/top-resume-keywords-for-2025.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://resumesmartbuild.com/articles/ai-tools-to-improve-your-resume.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
