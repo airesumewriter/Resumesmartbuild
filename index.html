@@ -2,55 +2,96 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Resume Smart Build</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume Smart Build – AI Resume Builder & Tools</title>
+  <meta name="description" content="Create your resume with AI, scan for ATS compatibility, and access free job-winning templates. ResumeSmartBuild is your smart career partner." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Resume Smart Build</h1>
-    <p>AI-powered tools to build the perfect resume</p>
-    <nav>
-      <ul>
-        <li><a href="ats.html">ATS Resume Scanner</a></li>
-        <li><a href="checklist.html">Resume Checklist</a></li>
-        <li><a href="rebuilder.html">AI Resume Rebuilder</a></li>
-        <li><a href="matcher.html">Job Matcher</a></li>
-        <li><a href="templates.html">Free Templates</a></li>
-        <li><a href="kenji.html">Kenji AI Assistant</a></li>
-        <li><a href="articles/article1.html">Articles</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main>
-    <section>
-      <h2>Welcome!</h2>
-      <p>Build your resume, beat the bots, and land interviews with AI-powered tools designed for career success.</p>
+  <!-- Sidebar Navigation -->
+  <aside class="sidebar">
+    <div class="logo">ResumeSmartBuild</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="ats.html">ATS Scanner</a>
+      <a href="resume-checklist.html">Checklist</a>
+      <a href="resume-rebuilder.html">Rebuilder</a>
+      <a href="job-matcher.html">Job Matcher</a>
+      <a href="templates.html">Templates</a>
+      <a href="articles/index.html">Articles</a>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Hero -->
+    <section class="hero reveal">
+      <h1>Create Your Resume with AI</h1>
+      <p>Build professional, ATS-ready resumes in minutes using smart tools and free templates.</p>
+      <a href="resume-rebuilder.html" class="cta-button">Start Building</a>
     </section>
 
-    <section>
+    <!-- Tools Section -->
+    <section class="tools reveal">
+      <h2>Smart Resume Tools</h2>
+      <div class="tool-grid">
+        <a href="ats.html" class="tool-card">
+          <h3>ATS Resume Scanner</h3>
+          <p>Check your resume against ATS systems instantly.</p>
+        </a>
+        <a href="resume-checklist.html" class="tool-card">
+          <h3>Resume Checklist</h3>
+          <p>Ensure your resume hits every critical mark before applying.</p>
+        </a>
+        <a href="templates.html" class="tool-card">
+          <h3>Free Templates</h3>
+          <p>Download beautiful, proven resume templates for Word and PDF.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Search -->
+    <section class="search reveal">
+      <h2>Search Articles</h2>
+      <input type="text" id="searchInput" placeholder="Search resume tips, AI tools, templates..." />
+    </section>
+
+    <!-- Featured Articles -->
+    <section class="articles reveal">
       <h2>Featured Articles</h2>
-      <ul>
-        <li><a href="articles/article1.html">How to Build a Resume That Wins Interviews</a></li>
-        <li><a href="articles/article2.html">Top 5 ATS Tips to Beat Resume Bots</a></li>
-        <li><a href="articles/article3.html">Common Resume Mistakes and How to Avoid Them</a></li>
-        <li><a href="articles/article4.html">Why Tailoring Your Resume Matters</a></li>
-        <li><a href="articles/article5.html">Best Resume Formats for 2025</a></li>
-      </ul>
+      <div class="article-list">
+        <div class="article-card">
+          <h3><a href="articles/how-to-make-an-ats-friendly-resume.html">How to Make an ATS-Friendly Resume</a></h3>
+          <p>Learn how to structure your resume to pass applicant tracking systems.</p>
+        </div>
+        <div class="article-card">
+          <h3><a href="articles/resume-vs-cv-differences.html">Resume vs. CV: What’s the Difference?</a></h3>
+          <p>Understand when to use a resume or CV and what each requires.</p>
+        </div>
+        <div class="article-card">
+          <h3><a href="articles/top-resume-keywords-for-2025.html">Top Resume Keywords for 2025</a></h3>
+          <p>Boost your chances of landing a job by using the right keywords.</p>
+        </div>
+        <div class="article-card">
+          <h3><a href="articles/ai-tools-to-improve-your-resume.html">10 AI Tools That Improve Resumes</a></h3>
+          <p>Use these free tools to make your resume stand out and get noticed.</p>
+        </div>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Resume Smart Build. All rights reserved.</p>
-  </footer>
+  <!-- Back to Top -->
+  <button id="backToTop">↑</button>
+  <script src="script.js"></script>
 
-<!-- Back to Top Button -->
-<button id="backToTop" style="display:none; position:fixed; bottom:20px; right:20px; padding:10px 15px; font-size:20px; background:#1e90ff; color:#fff; border:none; border-radius:50%; cursor:pointer; box-shadow: 0 2px 6px rgba(0,0,0,0.3); z-index:999;">
-  ↑
-</button>
+  <!-- Kenji AI Assistant (Chatbase) -->
+  <script>
+    window.chatbaseConfig = {
+      chatbotId: "YOUR_KENJI_CHATBOT_ID" // Replace with your real bot ID
+    }
+  </script>
+  <script src="https://www.chatbase.co/embed.min.js" id="kenjiChatbot" defer></script>
 
-<!-- Your script.js -->
-<script src="script.js"></script>
 </body>
 </html>
